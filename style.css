@@ -1,0 +1,3171 @@
+body{
+  margin:0px;
+  padding:0px;
+  overflow:scroll;
+  font-family:Lucida Sans;
+  background-color: lightgray;
+}
+ #navicolor{
+    border:2px solid black;
+    height:60px;
+    background-color:#131921;
+    padding: 0px;
+    margin:  0px;
+    outline: none;
+}
+#amazon{
+  float:left;
+}
+ #amazon a {
+    margin-left:10px;
+    border-radius:3px;
+    width:120pxs; 
+    height:40px; 
+    padding:5px 5px 7px 5px;
+    margin-top:5px;
+    float:left;
+}
+ #amazon a:hover{
+      box-shadow:0px 0px 0px 1px white;
+}
+.location{
+ display:inline-block;
+ margin:7px 20px 0px 10px;
+ color:white;
+ padding:5px 5px 10px 0px;
+ border-radius: 3px;
+ position: relative;
+ top: 0px;
+ bottom: 15px;
+ box-sizing: border-box;
+}
+.locationicon img{
+  position: relative;
+  top: 2px;
+  left: 2px;
+  margin: 0px;
+  padding: 0px;
+}
+.hello{
+margin: 0px;
+ font-size:12px;
+ padding:0px;
+ color:lightgray;
+}
+.yourlocation{
+   color:white;
+   display:block;
+   font-weight:bold;
+   font-size:15px;
+}
+.location:hover{
+      box-shadow:0px 0px 0px 1px white;
+}
+.hellolocation{
+  display: inline-block; 
+  position: relative;
+  top:6px;
+   
+}
+.searchbar{
+    display: inline-block;
+    border: 0px solid white;
+    height: 42px; 
+    width: 600px;
+    border-radius:5px;
+    position: relative;
+    bottom: 7px;
+    right: 10px;
+  }
+  .searchbar select{
+     height: 42px;
+     width: 60px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     outline: none;
+     padding: 10px ;
+     background-color: silver;
+
+  }
+  .searchbar select:hover{
+    box-shadow:0px 0px 1.5px 3px orange;
+  }
+  .searchbar:hover{
+    box-shadow:0px 0px 1.5px 3px orange;
+  }
+
+  .searchbar input{
+    display: inline-block ;
+    float: left;
+    position: relative;
+    bottom: 42px;
+    left: 58;
+    height:100%;
+    width: 490px;
+    outline:none;
+  }
+  
+  .EN a{
+  float: left;
+  color: white;
+  position: relative;
+  left: 970px;
+  bottom: 50px;
+  font-weight:bolder;
+  text-decoration: none;
+  padding:10px 7px 10px 7px;
+  }
+  .EN a:hover{
+      box-shadow: 0px 0px 0px 1px white;
+      border-radius: 3px;
+  }
+  .searchlogo{
+     display: inline-block;
+     float:left;
+     position: relative;
+     left:57px;
+     bottom:42px;
+     padding: 12px 20px 14px 18px;
+     background-color: orange;
+     border-top-right-radius:4px;
+     border-bottom-right-radius:4px;
+  }
+  .language{
+      background-color:white ;
+      width: 250px;
+      display:none;
+      z-index: 30;
+      float:right;
+      position:absolute;
+      top: 60px;
+      right: 250px;
+      font-family: Malgun Gothic;
+    }
+  
+  .EN img{
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 4px;
+    top: 4px;
+  }
+  .language ul li{
+    display:block;
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    line-height: 22px;
+  }
+  .language ul{
+     padding: 0px;
+     margin: 3px 0px 0px 0px;
+     box-shadow: 0px 0px 1px 0px black;
+  }
+  .EN:hover ~.language{
+    display:block;
+    background-color: white;
+  }
+  .language:hover ~.language{
+    display:block;
+    background-color: white;
+  }
+  .subenglish{
+     line-height: 40px;
+  }
+  .learnmore{
+    position: relative;
+    left: 30px;
+    text-decoration: none;
+  }
+  .verticalline1{
+     box-shadow: 0px 0px 0px 0.2px gray;
+  }
+  .sentense{
+   font-size: 13px ; 
+   margin: 10px 10px 10px 10px;
+  }
+  .verticalline{
+    height: 1px;
+    width: 250px;
+    margin: 5px 0px 5px 0px;
+    background-color: silver;
+  }
+.image{
+  display:inline-block;
+ float: left;
+ height: 20px;
+ width: 20px;
+ position: relative;
+ left: 5px;
+ top: 3px;
+ margin-right: 10px;
+
+}
+.changecountry a{
+      position: relative;
+      left: 20px;
+      bottom: 5px;
+      color: blue;
+      text-decoration: none;
+  }
+  
+  .signup{
+       display:none;
+       font-size: 15px;
+       float: left;
+       z-index: 20;
+       margin: 0px;
+       height:530px; 
+       width: 500px;
+       border: 1px solid grey;
+       position: absolute;
+       right: 150px;
+       top: 69px;
+       background-color: white;
+       box-shadow: 0px 0px 1px 0px black;
+  }
+  .signupbox{
+    display: inline-block;
+    float: left;
+    height: 40px;
+    width: 200px;
+    font-family:sans-serif;
+    text-align: center;
+    border: 1px solid;
+    padding: 9px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    left: 170px;
+    background:linear-gradient(white,orange );
+    box-shadow: 0px 0px -1px 0px;
+    border-radius: 2px;
+  }
+   .tringle1{
+    display: none;
+    height: 15px;
+    width: 20px;
+    border-radius: 2px;
+    border: 1px solid white;
+    background-color: white;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    float: left;
+    position: absolute;
+    left: 1050px;
+    top: 57px;
+    border: 1px solid white;
+    z-index: 20px;
+   }
+
+  .hellosignin{
+    display: inline-block;
+    float:left;
+    position: relative;
+    left: 980px;
+    bottom: 55px;
+    padding: 5px;
+    color: aliceblue;
+  }
+  .hellosignin a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .hellosignin:hover{
+    box-shadow: 0px 0px 0px 1px white;
+    border-radius: 2px;
+  }
+  .hellosignin:hover ~.signup{
+    display: block;
+    border-radius: 5px;
+    float: right;
+  }
+  .hellosignin:hover ~.tringle1{
+    display: block;
+  }
+  .newcustomer{
+   float: left;
+   position: relative;
+   top: 62px;
+   right:10px; 
+   font-size: 12px;
+  }
+  .newcustomer a{
+   text-decoration: none;
+   padding-left: 8px;
+   color: skyblue;
+  }
+  .newcustomer a:hover{
+    color: orangered;
+  }
+  .horiline{
+    width: 100%;
+    box-shadow:0px 0px 1px 0.2px gray;
+    position:relative;
+    top:100px;
+  }
+  .yourlist{  
+    float:left;
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+    margin: 0;
+    padding: 0;
+  }
+  .yourlist h3{
+    position: relative;
+    top: 100px;
+    right: 310px;
+  }
+  .yourlist ul{
+    position: relative;
+    top: 90px;
+    right: 350px;
+    list-style: none;
+    line-height: 30px;
+  }
+  .yourlist ul li a{
+   text-decoration: none;
+   color: grey;
+  }
+.verticalline2{
+  box-shadow: 0px 0px 0px 0.2px gray;
+  float: left;
+  width:1px;
+  height:420px;
+  position: relative;
+  right: 20px;
+  bottom: 90px;
+}
+.yourlist2{
+  float: left;
+  position: relative;
+  left: 300px;
+  bottom: 33px;
+  margin: 0;
+  padding: 0;
+}
+.yourlist2 h3{
+  position: relative;
+  bottom: 90px;
+  left: 25px;
+  margin: 0px;
+}
+.yourlist2 ul li{
+
+  position: relative;
+  bottom: 100px;
+  right: 13px;
+  list-style: none;
+  line-height: 35px;
+}
+.yourlist2 ul li a{
+  text-decoration: none;
+  color: grey;
+}
+ul li a:hover{
+  color: orangered;
+}
+.return{
+  padding: 5px;
+  float:left;
+  position: relative;
+  left: 990px;
+  bottom: 60px;
+  color: aliceblue;
+}
+.return span{
+  font-weight: bold;
+  font-size: 18px;
+}
+.return:hover{
+  box-shadow: 0px 0px 0px 1px;
+  border-radius: 3px;
+}
+.cart a img{
+  float:right;
+  position: relative;
+  right: 0px;
+  bottom: 58px;
+  height: 50px;
+  width: 90px;
+}
+.cart:hover{
+  box-shadow: 0px 0px 0px 1px white;
+}
+.various{
+  width: 100%;
+  height: 39px;
+  background-color:#232f3e;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+}
+.subvarious{
+   width: 340px;
+   z-index: 30;
+   clear: both;
+   margin-left:-340px;
+   float: left;
+   position: absolute;
+   top: 100px;
+   background-color:white;
+   border: 1px solid black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   transition: all 0.7s;
+  }
+.varioushello{
+   float: left;
+   width:340px;
+   height: 60px;
+   background-color: #232f3e;
+   display:block;
+}
+.varioushello span{
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.subvarioushello{
+  width: 340px;
+  display: inline-block;
+  overflow:scroll;
+}
+
+.trending{
+  display:block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:18px;
+}
+.trending span{
+  position: relative;
+  left: 30px;
+}
+.subvarious .trending a{
+  display: block;
+  text-decoration: none;
+  margin: 0px;
+  font-size: 16px;
+  line-height: 40px;
+  color:grey;
+}
+.trending :hover{
+  background-color: lightgrey;
+ }
+.trendingline{
+  width: 400px;
+  height: 0px;
+  box-shadow: 0px 0px 0px 0.5px grey;
+  position: relative;
+  right: 60px;
+}
+
+.digital{
+  position: relative;
+  left: 28px;
+  color: black;
+  font-size: 18px;
+}
+.digitalcontent {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  right: 0px;
+  top: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  color: gray;
+  box-sizing: border-box;
+}
+.subvarious .digitalcontent a{
+  display: block;
+  text-decoration: none;
+  color: grey;
+  position: relative;
+  
+}
+.digitalcontentline{
+  width: 400px;
+  box-shadow: 0px 0px 0px 0.5px grey;
+  position: relative;
+  right: 55px;
+  top: 20px;
+}
+.digitalcontent  i{
+ position: relative;
+ left: 50px; 
+ top: 0px;
+ color: grey;
+}
+.digitalcontent a:hover{
+ background-color: lightgrey;
+}
+.shop{
+  display:block;
+  position: relative;
+  top: 100px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:18px;
+}
+.shopby{
+  position: relative;
+  left: 20px;
+}
+.subvarious .shop a{
+  display: block;
+  position: relative;
+  right: 0px;
+  top: 8px;
+  font-size: 12px;
+  line-height: 40px;
+  color: gray;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.shopline{
+  width: 100%;
+  height: 0px;
+  box-shadow: 0px 0px 0px 0.5px grey;
+  position: relative;
+  right: 0px;
+  top: 20px;
+}
+.shop  i{
+ position: relative;
+ left: 50px; 
+ top: 0px;
+ color: grey;
+}
+.shop a:hover{
+ background-color: lightgrey;
+}
+
+.programhead{
+  position: relative;
+  top: 135px;
+  left: 20px;
+  font-size: 18px;
+}
+
+.subvarious .program a{
+  display: block;
+  position: relative;
+  right: 0px;
+  top: 140px;
+  font-size: 12px;
+  line-height: 40px;
+  color: gray;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.programline{
+  width: 100%;
+  height: 0px;
+  box-shadow: 0px 0px 0px 0.5px grey;
+  position: relative;
+  right: 0px;
+  top: 150px;
+}
+.program  i{
+ position: relative;
+ left: 50px; 
+ top: 0px;
+ color: grey;
+}
+.program a:hover{
+ background-color: lightgrey;
+}
+
+.helpsetting{
+  position: relative;
+  top: 160px;
+  left: 20px;
+  font-size: 18px;
+}
+
+.subvarious .help a{
+  display: block;
+  position: relative;
+  right: 0px;
+  top: 170px;
+  font-size: 12px;
+  line-height: 40px;
+  color: gray;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.help a:hover{
+ background-color: lightgrey;
+}
+
+
+.all a{
+  float: left;
+  color: white;
+  position: relative;
+  right: 250px;
+  bottom: 35px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  text-decoration: none;
+}
+.all a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.all:hover ~.subvarious{
+  
+   margin-left:0px;
+} 
+
+
+.bestseller a{
+  float: left;
+  color: white;
+  position: relative;
+  right: 245px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.bestseller a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.mobiles a{
+  float: left;
+  color: white;
+  position: relative;
+  right: 242px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.mobiles a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.today a{
+  float: left;
+  color: white;
+  position: relative;
+  right: 240px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.today a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.customer a{
+  float: left;
+  color: white;
+  position: relative;
+  right: 237px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.customer a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.electronic a{
+  float: left;
+  color:white ;
+  position: relative;
+  right: 230px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.electronic a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.prime a{
+  float: left;
+  color: white;
+  position: relative;
+  right: 225px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.prime a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.prime:hover ~.primebox{
+  display: block;
+}
+.prime:hover ~.primearrow{
+  display: block;
+}
+ .primearrow{
+  display: none;
+  height: 15px;
+  width: 20px;
+  border-radius: 2px;
+  background-color:black;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  float: left;
+  position: absolute;
+  left: 690px;
+  top: 87px;
+  z-index: 30px;
+ }
+.fashion a{
+  float: left;
+  color: white;
+  position: relative;
+  right: 220px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.fashion a:hover{
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 2px;
+}
+.home a{
+  float: left;
+  color: white;
+  position: relative;
+  right:215px;
+  bottom: 35px;
+  font-weight: bold;
+  padding: 6px;
+  text-decoration: none;
+}
+.home a:hover{
+  box-shadow: 0px 0px 0px 1px white; 
+}
+ .made span{
+  display: inline-block;
+  position: relative;
+  left: 1030px;
+  bottom: 60px;
+  color: white;
+ }
+.made img{
+  height: 30px;
+  width: 60px;
+  position:absolute;
+  top:68px;
+  left: 968px;
+  padding: 0px;
+  margin: 0px;
+}
+.made:hover{
+ box-shadow: 0px 0px 0px 0px white;
+}
+.cross i{
+  position: relative;
+  right: 935px;
+ display: none;
+}
+.cross a{
+  text-decoration: none;
+}
+.all:hover .cross a{
+  display:block;
+}
+
+.cross a:hover ~.subvarious{
+  display: none;
+}
+
+.primebox{
+  display:none;
+  height: 350px;
+  width: 350px;
+  z-index: 30;
+  border: 20px solid;
+  position: absolute;
+  left: 580px;
+  top: 101px;
+  background-color:#232f3e;
+}
+.Amazonprime{
+  position: absolute;
+  left: 80px;
+  bottom: 305px;
+  font-size: 28px;
+  color: #fff;
+  font-family: Lucida Sans Unicode;
+  padding:0px;
+  margin:0px;
+  font-weight: bold;
+}
+.enjoy{
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  top: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+.first{
+  display: inline-block;
+  float:left;
+  border: 1px solid #007185;
+  position: relative;
+  top: 45px;
+  padding: 20px 60px 15px 15px;
+  border-top-right-radius:35px;
+  border-bottom-right-radius:35px;
+  background-color: #007185;
+}
+.second{
+  display: inline-block;
+  float: left;
+  border: 1px solid #007185;
+  position: relative;
+  top: 70px;
+  right: 93px;
+  padding: 20px 62px 15px 15px;
+  border-top-right-radius:35px;
+  border-bottom-right-radius:35px;
+  background-color: #007185;
+}
+.third{
+  display: inline-block;
+  float: left;
+  border: 1px solid #007185;
+  position: relative;
+  top: 80px;
+  padding: 20px 64px 15px 15px;
+  border-top-right-radius:35px;
+  border-bottom-right-radius:35px; 
+  background-color: #007185;
+}
+.colorfont i{
+  position:relative;
+  left:40px;
+}
+.free{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+.latest{
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  left: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ad{
+  position: relative;
+  position: relative;
+  top: 80px;
+  left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+.joinprime{
+  position: relative;
+  top: 110px;
+  left: 120px;
+  border: 1px solid;
+  width: 100px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  box-sizing: content-box;
+  background: linear-gradient(white,gold 50%);
+  border-radius: 5px;
+  font-weight: bold;
+}
+.joinprime a{
+  color:black;
+  text-decoration: none;
+}
+.container{
+ width: 100%;
+ height: 600px;
+ background:lightgrey;
+ background: linear-gradient(to bottom top (white lightgray));
+ position:relative;
+ bottom: 50px;
+ overflow: hidden;
+}
+
+.raja{
+  width: 100%;
+  overflow:hidden;
+}
+#button10{
+  position: absolute;
+  top: 120px;
+  color: black;
+  
+}
+#button11{
+  position: absolute;
+  top: 120px;
+  color: black;
+}
+#shivamimg img{
+     width: 120%; 
+    }
+
+ 
+.toppicks{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 400px;
+  right:1005px ;
+}
+.toppicks h2{
+ position:absolute;
+ left: 5px;
+ top: 0px;
+}
+.air{
+  position: absolute;
+  bottom: 280px;
+  left: 10px;
+  height: 100px;
+  width: 150px;
+}
+.air a img{
+   width: 145px;
+   height: 100px;
+}
+.airwritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.refigerator{
+  position:absolute;
+  bottom: 251px;
+  left: 165px;
+  width: 150px;
+  height: 130px;
+}
+.refigerator a img{
+ width: 145px;
+ height: 100px;
+}
+.writtenrefigerator a{
+ text-decoration:none;
+ position:absolute;
+ top: 105px;
+ left: 6px;
+ color: black  ;
+}
+.microwave{
+  position: absolute;
+  bottom: 0px;
+  left: 8px;
+  width: 15px;
+}
+.microwave a img{
+ position: absolute;
+ bottom: 140px;
+ width: 145px;
+ height: 100px;
+}
+.writtenmicrowave a{
+ text-decoration: none;
+ position:absolute;
+ bottom: 115px;
+ left: 10px;
+ color: black  ;
+}
+.washing{
+  width: 150px;
+  height: 50px;
+  position:absolute;
+  top: 160px;
+}
+.washing a img{
+ position: absolute;
+ top: 50px;
+ left: 165px;
+ width: 145px;
+ height: 100px;
+}
+.writtenwashing a{
+ text-decoration: none;
+ position: absolute;
+ top: 158px;
+ left: 170px;
+ color:black;
+}
+.shopmorenext a{
+ position:absolute;
+ top:380px;
+ left: 10px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext a:hover{
+  color: red;
+}
+.Professional{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 400px;
+  right:671px;
+}
+.professionalheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+.Professionaltool{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 100px;
+  width: 150px;
+}
+.Professionaltool a img{
+   position: absolute;
+   top: 100px;
+   left: 7px;
+   clear: both;
+   float: left;
+   width: 140px;
+   height: 100px;
+}
+.Professionalwritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 205px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.measure{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.measure a img{
+ position: absolute;
+
+ width: 150px;
+ height: 100px;
+}
+.writtenmeasure a{
+ text-decoration:none;
+ width: 150px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.upto60{
+  position: absolute;
+  top: 245px;
+  left: 8px;
+  width: 150px;
+  height: 0px;
+}
+.upto60 a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenupto60 a{
+ text-decoration: none;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.Kitchen{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.Kitchen a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenkitchen a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: px;
+ color: black  ;
+}
+.shopmorenext2 a{
+ position:absolute;
+ top:400px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext2 a:hover{
+  color: red;
+}
+.Toprated{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 400px;
+  right:338px;
+}
+.Topratedlheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.homeproduct{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 100px;
+  width: 150px;
+}
+.homeproduct a img{
+   position: absolute;
+   top: 100px;
+   left: 7px;
+   clear: both;
+   float: left;
+   width: 140px;
+   height: 100px;
+}
+.homeproductwritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 205px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.Furnitureupto{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.Furnitureupto a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenFurnitureupto a{
+ text-decoration:none;
+ width: 150px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.daily{
+  position: absolute;
+  top: 245px;
+  left: 8px;
+  width: 150px;
+  height: 0px;
+}
+.daily a img{
+ width: 150px;
+ height: 100px;
+}
+.writtendaily a{
+ text-decoration: none;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.fashionnext{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.fashionnext a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenfashionnext a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.shopmorenext3 a{
+ position:absolute;
+ top:400px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext3 a:hover{
+  color: red;
+}
+.signinforbox{
+  height: 160px;
+  width: 310px;
+  background-color: white;
+  position: absolute;
+  left: 1025px;
+  bottom: 80px;
+  z-index: 10;
+}
+.signinfor{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px 10px 0px 10px;
+}
+.signinforbox a{
+  text-decoration: none;
+  color: black;
+}
+.signinsecurity{
+  height: 35px;
+  width: 90%;
+  background-color:darkorange;
+  margin: 30px 0px 10px 20px;  
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 10px 40px 10px 75px;
+  box-sizing: border-box;
+}
+.laptops img{
+  position: absolute;
+  left: 1025px;
+  top: 580px;
+  z-index:100;
+  height: 270px;
+  max-width: 310px;
+}
+
+.Payyour{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 880px;
+  right:1005px;
+}
+.Payyourlheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+.Payyour img{
+  position: absolute;
+  top: 100px;
+  transform: translate(20px,0px);
+  width: 280px;
+  height:300px;
+}
+.paynow a{
+  text-decoration: none;
+  position: absolute;
+  top: 420px;
+  left: 30px;
+  color: blue;
+}
+.paynow a:hover{
+  color: red;
+}
+
+.ShopbyCategory{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 880px;
+  right:671px;
+}
+.ShopbyCategoryheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.freshone{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 100px;
+  width: 150px;
+}
+.freshone a img{
+   position: absolute;
+   top: 100px;
+   left: 7px;
+   clear: both;
+   float: left;
+   width: 140px;
+   height: 100px;
+}
+.freshonewritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 205px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.mobileone{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.mobileone a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenmobileone a{
+ text-decoration:none;
+ width: 150px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.fashiongirls{
+  position: absolute;
+  top: 245px;
+  left: 8px;
+  width: 150px;
+  height: 0px;
+}
+.fashiongirls a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenfashiongirls a{
+ text-decoration: none;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.electronicone{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.electronicone a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenelectronicone a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.shopmorenext4 a{
+ position:absolute;
+ top:400px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext4 a:hover{
+  color: red;
+}
+.Offerson{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 880px;
+  right:338px;
+}
+.Offersonheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.Offersone{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.Offersone a img{
+   width: 147px;
+   height: 100px;
+}
+.Offersoneonewritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 100px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.train{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.train a img{
+ width: 150px;
+ height: 100px;
+}
+.writtentrain a{
+ text-decoration:none;
+ width: 150px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.guaranteed{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.guaranteed a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenguaranteed a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.yourtravel{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.yourtravel a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenyourtravel a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.shopmorenext5 a{
+ position:absolute;
+ top:400px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext5 a:hover{
+  color: red;
+}
+.Women{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 880px;
+  right:8px;
+}
+.Womenheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.cloth{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.cloth a img{
+   width: 147px;
+   height: 100px;
+}
+.clothwritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 100px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.footwear{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.footwear a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenfootwear a{
+ text-decoration:none;
+ width: 150px;
+ height: 20px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ overflow:hidden;
+ color: black  ;
+}
+.watches{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.watches a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenwatches a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.jewellery{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.jewellery a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenjewellery a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.shopmorenext6 a{
+ position:absolute;
+ top:400px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext6 a:hover{
+  color: red;
+}
+.major{
+  height: 240px;
+  width: 97.5%;
+  position:relative;
+  top: 600px;
+  left: 24px;
+  overflow: hidden;
+  background-color: white;
+}
+.major h1{
+  margin: 3px 0px 3px 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#ram{
+ width: 100%;
+ height: 500px;
+ margin: 0px;
+ padding: 0px;
+}
+#ramimg{
+ z-index: 100;
+ text-align: center;
+ font-size: 18px;
+ background: #fff;
+ /* Center slide text vertically */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#ramimg img {
+ display: block;
+ height: auto;
+ width: auto;
+ max-width: 270;
+ max-height: 200;
+ object-fit: cover;
+ position: relative;
+ bottom: 22px;
+ right: 10px;
+ padding-left:50px;
+}
+#button1{
+  position: relative;
+  bottom: 150px;
+  left: 10px;
+  color: #131921;
+  background-color: lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px grey;
+}
+#button2{
+  position: relative;
+  left: 1280px;
+  bottom: 170px;
+  color: #131921;
+  background-color: lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px grey;
+}
+
+.SmartTVs{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 1610px;
+  right:1005px;
+}
+.SmartTVsheading h2{
+  position: absolute;
+  bottom: 360px;
+  left: 10px;
+  height: 55px;
+  width: 300;
+  overflow:hidden; 
+}
+.theboys img{
+ width: 320;
+ height: 70%;
+ position: absolute;
+ top:90px;
+
+}
+.shopmorenext7 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext7 a:hover{
+  color: red;
+}
+
+.Starting{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 1610px;
+  right:670px;
+}
+.Startingheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.HomeKitchen{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.HomeKitchen a img{
+   width: 147px;
+   height: 100px;
+}
+.HomeKitchenwritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 100px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.Sports{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.Sports a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenSports a{
+ text-decoration:none;
+ width: 150px;
+ height: 20px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ overflow:hidden;
+ color: black  ;
+}
+.Improvement{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.Improvement a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenImprovement a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.PowerTools{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.PowerTools a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenPowerTools a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.shopmorenext8 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext8 a:hover{
+  color: red;
+}
+
+.Men{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 1610px;
+  right:340px;
+}
+.Menheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.clothing{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.clothing a img{
+   width: 147px;
+   height: 100px;
+}
+.clothingwritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color:black;
+ font-size: 15px;
+}  
+.Footwearnew{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.Footwearnew a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenFootwearnew a{
+ text-decoration:none;
+ width: 150px;
+ height: 20px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ overflow:hidden;
+ color: black  ;
+}
+.watchesnew{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.watchesnew a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenwatchesnew a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.Bags{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.Bags a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenBags a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black  ;
+}
+.shopmorenext9 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext9 a:hover{
+  color: red;
+}
+
+.Republic{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 1610px;
+  right:10px;
+}
+.Republicheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.Smartphones{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.Smartphones a img{
+   width: 147px;
+   height: 100px;
+}
+.Smartphoneswritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 105px;
+ left: 0px;
+ color:black;
+ font-size: 15px;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}  
+.Softness{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.Softness a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenSoftness a{
+ text-decoration:none;
+ width: 150px;
+ height: 35px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ overflow: hidden;
+ color: black  ;
+}
+.Intel{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.Intel a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenIntel a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.selling{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.selling a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenselling a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}
+.shopmorenext10 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext10 a:hover{
+  color: red;
+}
+
+.major2{
+  height: 240px;
+  width: 97.5%;
+  position: relative;
+  top:1100px;
+  left: 22px;
+  overflow: hidden;
+  background-color: white;
+}
+.major2 h1{
+  margin: 3px 0px 3px 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#ram2{
+ width: 100%;
+ height: 500px;
+ margin: 0px;
+ padding: 0px;
+}
+#ramimg2{
+ z-index: 100;
+ text-align: center;
+ font-size: 18px;
+ background: #fff;
+ /* Center slide text vertically */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#ramimg2 img {
+ display: block;
+ height: auto;
+ width: auto;
+ max-width: 270;
+ max-height: 200;
+ object-fit: cover;
+ position: relative;
+ bottom: 22px;
+ right: 10px;
+ padding-left:50px;
+}
+#button3{
+  position: relative;
+  bottom: 150px;
+  left: 10px;
+  color: #131921;
+  background-color: lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px grey;
+}
+#button4{
+  position: relative;
+  left: 1280px;
+  bottom: 160px;
+  color: #131921;
+  background-color: lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px grey;
+}
+
+.major3{
+  height: 240px;
+  width: 97.5%;
+  position: relative;
+  top: 1120px;
+  left: 22px;
+  overflow: hidden;
+  background-color: white;
+}
+.major3 h1{
+  margin: 3px 0px 3px 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#ram3{
+ width: 100%;
+ height: 500px;
+ margin: 0px;
+ padding: 0px;
+}
+#ramimg3{
+ z-index: 100;
+ text-align: center;
+ font-size: 18px;
+ background: #fff;
+ /* Center slide text vertically */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#ramimg3 img {
+ display: block;
+ height: auto;
+ width: auto;
+ max-width: 270;
+ max-height: 200;
+ object-fit: cover;
+ position: relative;
+ bottom: 22px;
+ right: 10px;
+ padding-left:50px;
+}
+#button5{
+  position: relative;
+  bottom: 150px;
+  left: 10px;
+  color: #131921;
+  background-color: lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px grey;
+}
+#button6{
+  position: relative;
+  left: 1280px;
+  bottom: 160px;
+  color: #131921;
+  background-color: lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px grey;
+}
+
+.brand{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 2610px;
+  right:1005px;
+}
+.brandheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.Savings{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.Savings a img{
+   width: 147px;
+   height: 100px;
+}
+.Savingswritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 105px;
+ left: 0px;
+ color:black;
+ font-size: 15px;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}  
+.Savings2{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.Savings2 a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenSavings2 a{
+ text-decoration:none;
+ width: 150px;
+ height: 20px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ color: black  ;
+}
+.Savings3{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.Savings3 a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenSavings3 a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.Savings4{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.Savings4 a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenSavings4 a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}
+.shopmorenext11 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext11 a:hover{
+  color: red;
+}
+
+.quality{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 2610px;
+  right:670px;
+}
+.qualityheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.TVs{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.TVs a img{
+   width: 147px;
+   height: 100px;
+}
+.TVswritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 105px;
+ left: 0px;
+ color:black;
+ font-size: 15px;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}  
+.off{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.off a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenoff a{
+ text-decoration:none;
+ width: 150px;
+ height: 20px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ color: black  ;
+}
+.accessories{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.accessories a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenaccessories a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.winter{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.winter a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenwinter a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}
+.shopmorenext12 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext12 a:hover{
+  color: red;
+}
+
+.business{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 2610px;
+  right:340px;
+}
+.businessheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.Computers{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.Computers a img{
+   width: 147px;
+   height: 100px;
+}
+.Computerswritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 105px;
+ left: 0px;
+ color:black;
+ font-size: 15px;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}  
+.Large{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.Large a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenLarge a{
+ text-decoration:none;
+ width: 150px;
+ height: 20px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ color: black  ;
+}
+.headphone{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.headphone a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenheadphone a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.essentials{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.essentials a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenessentials a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}
+.shopmorenext13 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext13 a:hover{
+  color: red;
+}
+
+.utility{
+  width: 320px;
+  height: 450px;
+  background-color:white;
+  float: left;
+  z-index: 10;
+  position: absolute;
+  top: 2610px;
+  right:10px;
+}
+.utilityheading h2{
+  position: absolute;
+  left: 10px;
+  height: 55px;
+ width: 300;
+ overflow:hidden; 
+}
+
+.bill{
+  position: absolute;
+  left: 10px;
+  bottom: 362px;
+  height: 0px;
+  width: 150px;
+}
+.bill a img{
+   width: 147px;
+   height: 100px;
+}
+.billwritten a{
+ text-decoration:none;
+ position: absolute;
+ top: 105px;
+ left: 0px;
+ color:black;
+ font-size: 15px;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}  
+.cylinder{
+  position:absolute;
+  left: 165px;
+  bottom: 232px;
+  width: 150px;
+  height: 130px;
+}
+.cylinder a img{
+ width: 150px;
+ height: 100px;
+}
+.writtencylinder a{
+ text-decoration:none;
+ width: 150px;
+ height: 20px;
+ position:absolute;
+ top: 105px;
+ left: 2px;
+ color: black  ;
+}
+.Broadband{
+  position: absolute;
+  top: 244px;
+  left: 8px;
+  width: 15px;
+  height: 10px;
+}
+.Broadband a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenBroadband a{
+ text-decoration: none;
+ width: 130px;
+ height:40px;
+ position:absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ overflow:hidden;
+}
+.DTH{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: 165px;
+}
+.DTH a img{
+ width: 150px;
+ height: 100px;
+}
+.writtenDTH a{
+ text-decoration: none;
+ position: absolute;
+ top: 105px;
+ left: 10px;
+ color: black;
+ width:150px;
+ height: 50px;
+ text-overflow: ellipsis;
+}
+.shopmorenext14 a{
+ position:absolute;
+ top:420px;
+ left: 15px;
+ text-decoration: none;
+ color: blue;
+}
+.shopmorenext14 a:hover{
+  color: red;
+}
+.personalized{
+  height:200px;
+  width:100%;
+  background-color:white;
+  position: absolute;
+  top: 3080px;
+}
+.line1{
+  width: 100%;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid lightgrey;
+  position: absolute;
+  top: 40px;
+}
+.line2{
+  width: 100%;
+  height: 0px;
+  border: 1px solid lightgrey;
+  position: absolute;
+  top: 175px;
+}
+.writtenaline{
+  font-size: 14px;
+  position: absolute;
+  left: 38%;
+  top: 70px;
+}
+.signinline{
+  border: 1px solid;
+  height: 20px;
+  width: 200px;
+  padding: 3px;
+  position: absolute;
+  left: 39.5%; 
+  top: 90px;
+  text-align: center;
+ background-color: gold;
+ border-radius: 4px;
+ font-weight: bold;
+}
+.signinline a{
+  text-decoration: none;
+  color: black;
+}
+.Newcustomerline{
+  position: absolute;
+  left: 555px;
+  top: 120px;
+  font-size: 11px;
+}
+.Newcustomerline a{
+  text-decoration: none;
+  color: blue;
+}
+.Newcustomerline a:hover{
+  color: orangered;
+}
+.backtotop{
+  width: 100%;
+  height: 50px;
+  background-color:#394553;
+  position: absolute;
+  top: 3280px;
+}
+.writtenbacktotp{
+  color: white;
+  position: absolute;
+  left: 650px;
+  top: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+.full{
+  height: 540px;
+  width: 100%;
+  background-color: #232f3e;
+  position: absolute;
+  top: 3330px;
+}
+.Getto{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 170px;
+}
+.gettomore{
+  position: absolute;
+  left:180px;
+  top:90px;
+}
+.under a{
+  line-height: 30px;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;  
+ }
+ .gettomore a:hover{
+  text-decoration: underline;
+ }
+ .Connect{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 410px;
+}
+.Connectmore{
+  position: absolute;
+  left:420px;
+  top:90px;
+}
+.under1 a{
+  line-height: 30px;
+  color: white;
+  font-size: 14px;
+  left: 210px;
+  text-decoration: none;  
+ }
+ .Connectmore a:hover{
+  text-decoration: underline;
+ }
+
+ .Make{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 650px;
+}
+.Makemore{
+  position: absolute;
+  left:660px;
+  top:90px;
+}
+.under3 a{
+  line-height: 30px;
+  color: white;
+  font-size: 14px;
+  left: 210px;
+  text-decoration: none;  
+ }
+ .Makemore a:hover{
+  text-decoration: underline;
+ }
+
+ .LetUs{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 970px;
+}
+.LetUsmore{
+  position: absolute;
+  left:980px;
+  top:90px;
+}
+.under4 a{
+  line-height: 30px;
+  color: white;
+  font-size: 14px;
+  left: 210px;
+  text-decoration: none;  
+ }
+ .LetUsmore a:hover{
+  text-decoration: underline;
+ }
+ .line3{
+  border: 1px solid grey;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 400px;
+ }
+ .Amazonbase img{
+  height: 30px;
+  position: absolute;
+  top: 440px;
+  left: 500px;
+ }
+ .englishearth{
+  border: 1px solid grey;
+  height: 28px;
+  width: 110px;
+  color: white;
+  z-index: 10;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-top: 3px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 3760px;
+  left: 620px;
+ }
+ .earth i{
+   float: left;
+   padding: 2px 0px 0px 10px;
+ }
+ 
+ .forhoverenglish:hover ~.language2{
+  display:block;
+  
+}
+
+ .language2{
+  background-color:white ;
+  width: 250px;
+  display:none;
+  z-index: 30;
+  float:right;
+  position:absolute;
+  top: 3760px;
+  right: 330px;
+  font-family: Malgun Gothic;
+}
+
+.language2 ul li{
+display:block;
+list-style: none;
+margin: 5px;
+padding: 0px;
+line-height: 22px;
+}
+.language2 ul{
+ padding: 0px;
+ margin: 3px 0px 0px 0px;
+ box-shadow: 0px 0px 1px 0px black;
+}
+
+.subenglish2{
+ line-height: 40px;
+}
+.learnmore2{
+position: relative;
+left: 30px;
+text-decoration: none;
+}
+.verticalline10{
+ box-shadow: 0px 0px 0px 0.2px gray;
+}
+.sentense2{
+font-size: 13px ; 
+margin: 10px 10px 10px 10px;
+}
+.verticalline2{
+height: 1px;
+width: 250px;
+margin: 5px 0px 5px 0px;
+background-color: silver;
+}
+.image2{
+display:inline-block;
+float: left;
+height: 20px;
+width: 20px;
+position: relative;
+left: 5px;
+top: 3px;
+margin-right: 10px;
+
+}
+.changecountry2 a{
+  position: relative;
+  left: 20px;
+  bottom: 5px;
+  color: blue;
+  text-decoration: none;
+}
+
+ .countrybase{
+  position: absolute;
+  top: 3810px;
+  left: 220px;
+  width: 1000px;
+  height: 30px;
+ }
+ .countrybase a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-left: 15px;
+  display: inline-block;
+ }
+ .countrybase a:hover{
+  text-decoration: underline;
+ }
+ .lastone{
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  top: 3870px;
+  background-color: #131921;
+ }
+ .abebook{
+  position: absolute;
+  left: 250px;
+  top: 30px;
+ }
+ .abebook a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .abebook a:hover{
+  text-decoration: underline;
+ }
+ .abebook span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .WebServices{
+  position: absolute;
+  left: 370px;
+  top: 30px;
+ }
+ .WebServices a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .WebServices a:hover{
+  text-decoration: underline;
+ }
+ .WebServices span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .Audible{
+  position: absolute;
+  left: 560px;
+  top: 30px;
+ }
+ .Audible a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .Audible a:hover{
+  text-decoration: underline;
+ }
+ .Audible span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .DPReview{
+  position: absolute;
+  left: 700px;
+  top: 30px;
+ }
+ .DPReview a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .DPReview a:hover{
+  text-decoration: underline;
+ }
+ .DPReview span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .IMDb{
+  position: absolute;
+  left: 860px;
+  top: 30px;
+ }
+ .IMDb a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .IMDb a:hover{
+  text-decoration: underline;
+ }
+ .IMDb span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .Shopbop{
+  position: absolute;
+  left: 250px;
+  top: 100px;
+ }
+ .Shopbop a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .Shopbop a:hover{
+  text-decoration: underline;
+ }
+ .Shopbop span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .Everything{
+  position: absolute;
+  left: 370px;
+  top: 100px;
+ }
+ .Everything a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .Everything a:hover{
+  text-decoration: underline;
+ }
+ .Everything span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .Deliverylast{
+  position: absolute;
+  left: 560px;
+  top: 100px;
+ }
+ .Deliverylast a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .Deliverylast a:hover{
+  text-decoration: underline;
+ }
+ .Deliverylast span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .PrimeMusic{
+  position: absolute;
+  left: 700px;
+  top: 100px;
+ }
+ .PrimeMusic a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+ }
+ .PrimeMusic a:hover{
+  text-decoration: underline;
+ }
+ .PrimeMusic span{
+  color:grey;
+  font-size: 12px;
+ }
+
+ .UseSale a{
+  color: white;
+  position: absolute;
+  left: 400px;
+  top: 170px;
+  font-size: 11px;
+  text-decoration: none;
+ }
+ .UseSale a:hover{
+  text-decoration: underline;
+ }
+
+ .Privacy a{
+  color: white;
+  position: absolute;
+  left: 545px;
+  top: 170px;
+  font-size: 11px;
+  text-decoration: none;
+ }
+ .Privacy a:hover{
+  text-decoration: underline;
+ }
+
+ .Interest a{
+  color: white;
+  position: absolute;
+  left: 635px;
+  top: 170px;
+  font-size: 11px;
+  text-decoration: none;
+ }
+ .Interest a:hover{
+  text-decoration: underline;
+ }
+ .Inc{
+  color: gray;
+  font-size: 11px;
+  position: absolute;
+  left: 440px;
+  top: 187px;
+ }
